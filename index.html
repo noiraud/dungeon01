@@ -9,7 +9,8 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play dungeon01.</tw-noscript></noscript></tw-story>
-<tw-storydata name="dungeon01" startnode="1" creator="Twine" creator-version="2.7.1" format="Harlowe" format-version="3.3.7" ifid="F13A2B28-0AED-41A1-A97C-14AA8C3A95D3" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="start 01" tags="" position="675,325" size="100,100">これはゲームブックです。
+<tw-storydata name="dungeon01" startnode="1" creator="Twine" creator-version="2.7.1" format="Harlowe" format-version="3.3.7" ifid="F13A2B28-0AED-41A1-A97C-14AA8C3A95D3" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="start 01" tags="" position="725,150" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_book01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+これはゲームブックです。
 ゲームブックは、あなた自身が主人公となり、物語の進行を自分で選択することができる本です。以下に、ゲームブックの遊び方を簡単に説明します：
 
 物語を読む：まずは物語を読みます。ここでは、主人公の背景や目的、現在の状況などが説明されます。
@@ -21,6 +22,7 @@
 エンディングを迎える：最終的には、あなたの選択によって物語は様々な結末を迎えます。成功すれば目的を達成し、失敗すれば挑戦はそこで終わります。
 
 紙とペンも用意しましょう。必要に応じて地図を書いたり、手に入れたアイテムを覚えておくために。
+（ブラウザの戻るボタンは使用できません。Undoボタンがありますができれば使わずに進めてみましょう）
 
 今回のクエストは「魔竜の寝床と欠けた鍵」
 それでははじまりの酒場へ！
@@ -119,13 +121,20 @@
 やがて行く手に分かれ道が現れた。右へ続く道は少し広くて整備された道だ。左の道は荒々しいむき出しの岩肌が続いている。
 
 ・右へ進む[[right 01]]
-・左へ進む[[left 01]]</tw-passagedata><tw-passagedata pid="15" name="right 01" tags="" position="1375,1800" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_fountain01.jpg&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+・左へ進む[[left 01]]</tw-passagedata><tw-passagedata pid="15" name="right 01" tags="" position="1375,1775" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_fountain01.jpg&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
 道を進むにつれて、あなたたちは遠くから水滴が落ちる音を聞き始めた。その音は洞窟の中でこだまし、あなたたちの耳に響いていた。そこには小さな泉があった。
 泉は洞窟に住むものたちの貴重な水源となっていた。その清らかな水は、洞窟の中で生きるすべての生物にとって、生命を繋ぎ止める重要な存在であった。
 あなたたちはしばしの休息をとるか、このまま進むかしばし悩んだ。
 
 ・休息をとる[[rest 01]]
-・進む[[go 01]]</tw-passagedata><tw-passagedata pid="16" name="left 01" tags="" position="875,1775" size="100,100"></tw-passagedata><tw-passagedata pid="17" name="go 01" tags="" position="1375,2175" size="100,100">洞窟を進むと、少し開けた場所に出た。その場所は洞窟の中にあるにも関わらず、天井が高く、壁が広がっていた。その中央には、木製のドアがあった。
+・進む[[go 01]]</tw-passagedata><tw-passagedata pid="16" name="dungeon 05" tags="" position="750,2225" size="100,100">その先の洞窟は淀んでいて湿った空気が立ち込めている。しかし、その一方で、どこからともなく芳しい香りが漂ってくる。それは甘く、爽やかな香りで、何とも言えない心地よさを感じさせる。
+
+その香りに導かれ、あなたたちは洞窟の奥へと進む。
+やがて道が二手に分かれているところに来た。
+
+・香りが強い右の道へ進む[[right 02]]
+・香りのしない左の道へ進む[[left 02]]</tw-passagedata><tw-passagedata pid="17" name="go 01" tags="" position="1500,2150" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_go01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+洞窟を進むと、少し開けた場所に出た。その場所は洞窟の中にあるにも関わらず、天井が高く、壁が広がっていた。その中央には、木製のドアがあった。
 
 ドアは古く、何年もの時間を経て風化していたが、それでもなお堅牢さを保っていた。ドアの上部には、何かのシンボルが彫り込まれていた。さあ何をする？
 
@@ -136,7 +145,7 @@
 「グゲエゲエ！」と一匹が叫び、もう一匹は戸惑っている様子を浮かべながらあなたたちを見つめていた。彼らの存在は予想外だったが、あなたたちはすぐに立ち上がった。
 
 ・戦闘をする[[battle 01]]
-・様子を見る	[[watch 01]]</tw-passagedata><tw-passagedata pid="19" name="battle 01" tags="" position="1475,2025" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_battle01.jpg&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+・様子を見る	[[watch 01]]</tw-passagedata><tw-passagedata pid="19" name="battle 01" tags="" position="1375,2000" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_battle01.jpg&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
 戦いが始まった。４対3ですぐにケリがつくと思ったがゴブリンは仲間を呼び、あなたたちに向かって襲いかかった。ドワーフはその頑丈な体を前に出して仲間を守り、エルフはその敏捷さで素早く矢を引き絞った。しかし、ゴブリンの数はあまりにも多く、あなたたちは次第に追い詰められていった。ゴブリンの攻撃は止まることなく、あなたたちは次々と倒れていった。
 
 魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
@@ -151,8 +160,231 @@
 ・ドワーフに斧で叩き割ってもらう[[axe 01]]
 ・別れ道までもどる[[dungeon 01]]
 ・アイテムを使う[[item 01]]</tw-passagedata><tw-passagedata pid="22" name="bow 01" tags="" position="1550,2300" size="100,100">エルフが弓を放った瞬間、ドアは突然強い光を放ち、その光は洞窟全体を照らした。そして、巨大な衝撃波が発生し、あなたたちはその力に押し流されて洞窟の壁に打ち付けられた。薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
-[[dungeon 01]]</tw-passagedata><tw-passagedata pid="23" name="axe 01" tags="" position="1125,2425" size="100,100">ドワーフがドアを叩き割ろうとした瞬間、ドアは突然強い光を放ち、その光は洞窟全体を照らした。そして、巨大な衝撃波が発生し、あなたたちはその力に押し流されて洞窟の壁に打ち付けられた。薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
-[[dungeon 01]]</tw-passagedata><tw-passagedata pid="24" name="item 01" tags="" position="1375,2425" size="100,100"></tw-passagedata></tw-storydata>
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="23" name="axe 01" tags="" position="1125,2425" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_badend01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+ドワーフがドアを叩き割ろうとした瞬間、ドアは突然強い光を放ち、その光は洞窟全体を照らした。そして、巨大な衝撃波が発生し、あなたたちはその力に押し流されて洞窟の壁に打ち付けられた。薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="24" name="item 01" tags="" position="1375,2425" size="100,100">あなたはこれまで手に入れたアイテムを使うことにした。
+
+・干し肉を使う[[item 02]]
+・花を使う[[item 03]]
+・鍵を使う[[item 04]]
+・アイテムを持っていない[[check 01]]</tw-passagedata><tw-passagedata pid="25" name="item 02" tags="" position="1275,2550" size="100,100">魔法使いは干し肉をドアの前に置き、古代の呪文を唱えたが、ドアは静かにその場に立っていた。干し肉から特別な力が放たれることはなく、ドアも動くことはなかった。
+
+・ドアの前にもどる[[check 01]]</tw-passagedata><tw-passagedata pid="26" name="item 03" tags="" position="1500,2550" size="100,100">あなたは、ドアの前に花を置いた。花を置くと、その香りが周囲に広がり、空気が微かに震え始めた。それから、古代の霊が現れ、あなたが花を捧げたことに感謝した。霊は、その感謝の意を示すかのように、ドアをゆっくりと開けた。あなたは、新たな道が開かれたことに胸を躍らせながら、その先へと進んでいった。
+
+・先へ進む[[dungeon 02]] </tw-passagedata><tw-passagedata pid="27" name="item 04" tags="" position="1675,2550" size="100,100">あなたは、手に持っている鍵を見つめた。それは、かつては美しい装飾が施され、力強さを感じさせる鍵だった。しかし、今はその一部が欠けており、かつての輝きは見る影もない。あなたは、その鍵をドアの鍵穴に差し込んだ。しかし、鍵はぐらつき、ドアは微動だにしなかった。欠けた鍵では、このドアは開かないようだ。あなたは、鍵を引き抜いた。
+
+・ドアの前にもどる[[check 01]]</tw-passagedata><tw-passagedata pid="28" name="dungeon 02" tags="" position="1500,2675" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_skeleton01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+通路を進むと、周囲の暗闇が深まっていった。足元には岩が散乱しており、その影から何かがゆっくりと現れた。それはガイコツ戦士だった。その姿は、かつての勇者のように鎧をまとっていたが、ボロボロに風化していた。その眼窩からは青白い光が放たれ、不気味な雰囲気が漂っている。ガイコツ戦士は、あなたに向かってゆっくりと歩みを進めた。その手には、錆びた剣が握られていた。
+
+・干し肉を差し出す[[item 05]]
+・戦う[[battle 02]]</tw-passagedata><tw-passagedata pid="29" name="item 05" tags="" position="1850,2800" size="100,100">あなたは、ガイコツ戦士に干し肉を差し出した。しかし、ガイコツ戦士はそれに反応せず、むしろ怒りを見せた。その眼窩から放たれる青白い光が一層強くなり、その姿はさらに恐ろしいものとなった。
+あなたたちは、その変化に驚きながらも、武器を構え、戦いに備えた。
+
+しかし、怒りに燃えたガイコツ戦士の力はあまりにも強大で、あなたたちはその攻撃を防ぐことができなかった。あなたたちは倒されてしまった。
+
+薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="30" name="battle 02" tags="" position="1375,2775" size="100,100">あなたは騎士として、ガイコツ戦士との戦いに挑んだ。剣を構え、勇敢に前進した。ガイコツ戦士の攻撃を巧みにかわし、反撃の機会をうかがった。
+
+その間に、ドワーフは岩石を使って戦場を操った。地面を叩くと、岩石が飛び出し、ガイコツ戦士の動きを阻害した。これにより、あなたはガイコツ戦士に一撃を加えることができた。
+
+次に、魔法使いが登場した。彼は強力な火の魔法を使い、ガイコツ戦士を攻撃した。炎はガイコツ戦士を包み込み、その動きをさらに遅くした。
+
+とどめを刺すチャンスだ！
+
+・あなたが攻撃する[[battle 03]]
+・エルフをサポートする[[battle 04]]
+
+</tw-passagedata><tw-passagedata pid="31" name="battle 03" tags="" position="1200,2950" size="100,100">あなたは、ガイコツ戦士にとどめを刺そうと剣を振り上げた。しかし、アンデッドであるガイコツ戦士に対して、物理的な攻撃でとどめを刺すことはできなかった。
+慢心したあなたの隙をついてガイコツ戦士が剣を振るった。
+あなたは致命傷を負ってしまった。
+
+魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="32" name="battle 04" tags="" position="1575,2950" size="100,100">あなたはガイコツ戦士の次の攻撃を見事に防ぎ、その隙にエルフが弓を引き絞った。その矢は、風を切り裂き、アンデッドの急所である目の光を直撃した。その一瞬、ガイコツ戦士の動きが止まった。エルフの矢は、アンデッドの存在そのもの、その生命の火を消すことができたのだ。その結果、ガイコツ戦士は動きを止め、その場に倒れた。
+
+・先へ進む[[dungeon 03]] </tw-passagedata><tw-passagedata pid="33" name="dungeon 03" tags="" position="1475,3075" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_monument01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+先の通路は行き止まりで、そこには古代の石碑が立っていた。その石碑には、文字ではなく複雑な模様が描かれていた。
+その模様をじっくりと見つめると、何か特定の形状を示しているように見えた。それは、地図のようでもあり、星座のようでもあった。
+
+・ドワーフに斧で叩き割ってもらう[[axe 02]]
+・さらに調べる[[check 02]]</tw-passagedata><tw-passagedata pid="34" name="axe 02" tags="" position="1675,3250" size="100,100">ドワーフの力強い一撃が石碑に繰り出された瞬間、何かが起こった。石碑は古代の魔法で保護されていたようで、その魔法が反発し、ドワーフの攻撃をそのままこちらに反射したのだ。その力は予想を超えており、あなたたちはその衝撃に耐えることができなかった。
+
+薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="35" name="check 02" tags="" position="1375,3250" size="100,100">石碑をよく調べると、その表面には微細な凹みがあることに気づいた。それは一見するとただの模様に見えたが、よく見ると何かがはまりそうな形状をしていた。
+
+・干し肉をはめてみる[[item 06]]
+・欠けた鍵をはめてみる[[item 07]]
+・アイテムを持っていない[[item 08]]</tw-passagedata><tw-passagedata pid="36" name="item 06" tags="" position="1575,3375" size="100,100">あなたは、石碑の凹みに干し肉をはめてみた。その形状はぴったりと合っていた！
+干し肉が凹みにはまると、一瞬、何かが起こるのではないかと期待した。しかし、その期待はすぐに裏切られた。石碑は静かにその場に立っており、何の反応も示さなかった。
+他の三人は呆れた顔であなたを見ている。
+
+・さらに調べる[[check 02]] </tw-passagedata><tw-passagedata pid="37" name="item 07" tags="" position="1300,3425" size="100,100">石碑の凹みをよく見てみると、その形状が以前に見つけた欠けた鍵と同じであることに気づいた。
+欠けた鍵を手に取り、石碑の凹みに合わせてみると、ピッタリとはまった。鍵がはまると、石碑は微かに震え出した。
+すると石碑の背後にある岩の壁がゆっくりと開いていった。それは、まるで壁そのものが生きているかのように、静かに、しかし確実に動いていた。
+壁の奥からは、微かな光が漏れてきていた。光の源を辿ると、そこには小さな通路が存在していた。その通路は、壁の奥深くに続いていた。
+
+・先へ進む[[dungeon 04]]</tw-passagedata><tw-passagedata pid="38" name="item 08" tags="" position="1450,3425" size="100,100">何か重要なアイテムを手に入れる必要がありそうだ。
+あなたはもう一度ダンジョンの入り口に戻り、未知のルートを探してみることにした。
+
+・入り口へもどる[[dungeon 01]] </tw-passagedata><tw-passagedata pid="39" name="dungeon 04" tags="" position="1300,3550" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_gold01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+その通路の奥に進むと、目の前に広がったのは金銀財宝が床一面に散らばる壮観な光景だった。金の山、銀の塔、宝石が散りばめられた美しい装飾品、古代の芸術作品、それらが輝く光は、この暗闇の中でまばゆいばかりだった。それは、かつての王や英雄が集めたとされる財宝の山で、その価値は計り知れない。あなたたちはその光景に息を呑み、しばらくその場に立ち尽くしていた。
+
+すると奥の方から何か巨大なものが動く音が聞こえてきた。
+
+・近づいてみる[[close 01]]
+・財宝の影にかくれる[[hide 01]]</tw-passagedata><tw-passagedata pid="40" name="close 01" tags="" position="1175,3675" size="100,100">その財宝の山の奥に進むと、突如として巨大なドラゴンが現れた。その存在感は圧倒的で、その目の前に立つと自分がいかに小さな存在であるかを痛感させられた。ドラゴンは、あなたが無防備に近づいてきたことに気づき、その大きな口から炎を吹き出した。その炎は、あっという間にあなたを包み込み、周囲を焼き尽くした。
+
+薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="41" name="hide 01" tags="" position="1425,3675" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_dragon01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+あなたたちは、財宝の山の影に身を隠し、様子を見ることにした。何か巨大な体がゆっくりと動き、その息遣いが重く響いていた。
+それこそが「魔竜」と呼ばれるドラゴンの中のドラゴンであった。
+その存在感は圧倒的で、その目の前に立つと自分がいかに小さな存在であるかを痛感させられた。
+
+しかし、あなたたちは幸運にもドラゴンに気づかれていなかった。その巨大な瞳は、あなたたちの存在を捉えることなく、他の方向を見つめていた。
+
+・戦いを挑む[[battle 05]]
+・仲間同士で相談する[[talk 01]]</tw-passagedata><tw-passagedata pid="42" name="battle 05" tags="" position="1275,3825" size="100,100">あなたたちは勇敢にドラゴンに戦いを挑んだ。剣を構え、その巨大な存在に立ち向かった。しかし、ドラゴンはその大きな口から炎を吹き出した。その炎は、あっという間にあなたたちを包み込み、周囲を焼き尽くした。
+
+薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="43" name="talk 01" tags="" position="1600,3800" size="100,100">あなたたちは身を潜めたまま話し合った。
+魔法使いは老賢者のように語った「このドラゴンは、我々が思っている以上に強い。今はまだ戦うのは避けた方がよいだろう。我々の力を信じすぎるのは、危ないことだよ。」
+ドワーフは血気盛んに言った。「この眼前に広がる宝の山を見て、ただ尻尾を巻いて帰るというのか！我々は戦士だ！おくすることなく立ち向かうべきだ！」
+エルフは反論した。「どれほどの宝が眼前に輝いていようとも、命の灯が消えてしまった者には何の価値もない。生きることこそが最大の宝であり、それを失うことは何よりも避けるべきだ」
+
+あなたの意見は、
+・戦おう[[battle 06]]
+・今はやめよう[[stop 01]]</tw-passagedata><tw-passagedata pid="44" name="battle 06" tags="" position="1475,3950" size="100,100">あなたは言う「ここまで来れたんだからドラゴンも倒せる。これまで数々の困難を乗り越えてきた我々の絆、我々の力、我々の勇気があれば、どんな敵でも倒すことができる。」
+仲間は渋々その言葉に従った。
+しかし、その戦いは思った以上に厳しかった。
+ドラゴンの炎は、あなたたちの防御を容易に突き破り、その強大な力はあなたたちを圧倒した。
+
+薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="45" name="stop 01" tags="" position="1700,3925" size="100,100">あなたは、一歩前に出て、仲間たちを見つめた。「みんな、聞いてくれ。」と、あなたは静かに言った。「このドラゴンは強大だ。今の私たちでは、勝つことはできない。だが、それは臆病さではない。」
+仲間たちは、あなたの言葉に驚いた表情を浮かべた。しかし、あなたは彼らの目を見つめ続けた。「一度引くことも勇気だ。」と、あなたは力強く言った。「今は、生き延びることが最優先だ。そして、次に戦うための準備をする。それが、真の勇者のすることだ。」
+
+しかし、目の前に広がる財宝の山を見て、何もせずに帰るわけにはいかないとも思う。
+
+・やはり危険すぎる、何もしない[[talk 02]]
+・少しでも財宝を持ち帰ろう[[talk 03]]</tw-passagedata><tw-passagedata pid="46" name="right 02" tags="" position="950,2350" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_flower01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+洞窟をしばらく歩いた後、岩陰に一輪の美しい花が咲いていた。その花は、洞窟の厳しい環境にもかかわらず、美しく咲き誇っている。その花びらは、洞窟の中の微かな光を反射してキラキラと輝いている。
+
+あなたは花を数本つんだ。アイテム「花」を手に入れた！
+分かれ道へ戻る[[dungeon 05]]</tw-passagedata><tw-passagedata pid="47" name="left 02" tags="" position="625,2375" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_shrine01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+洞窟を進むと、古代の祭壇のような場所にたどり着いた。その祭壇は時間の経過とともに風化しているが、かつての荘厳さを今でも感じさせる。祭壇の周りには壁画や彫刻が施されていた。祭壇の左右に灯籠が立っている。
+右の灯籠には、炎が揺らめいている。
+左の灯籠には、ガイコツの頭部が飾ってある。
+
+・魔法使いに調べてもらう[[magic 04]]
+・ドワーフに調べてもらう[[dwarf 04]]</tw-passagedata><tw-passagedata pid="48" name="magic 04" tags="" position="725,2500" size="100,100">魔法使いは祭壇を慎重に調べた。その祭壇は古代の魔法の痕跡を残し、その存在自体が何世紀も前の歴史を物語っていた。祭壇の表面は風化していたが、その中には古代の文字や模様が刻まれていた。
+
+魔法使いはその文字を一つ一つ読み解いた。「命はともしび。死は終わり。恐れなき者だけが知恵をえる。」という言葉がそこに書かれていた。
+
+・炎がともる右の灯籠を調べる[[right 03]]
+・ガイコツが飾られている左の灯籠を調べる[[left 03]]</tw-passagedata><tw-passagedata pid="49" name="dwarf 04" tags="" position="400,2450" size="100,100">ドワーフは「いかにもお宝が眠っていそうだ」と言い、斧で祭壇を叩いた。その瞬間、何かが起こった。祭壇からは古代の魔法の罠が発動し、一瞬でその部屋に炎が吹き出した！
+
+薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="50" name="right 03" tags="" position="850,2625" size="100,100">魔法使いが「いかん、それは…！」と言ったが遅かった。
+灯籠の下からカチリと音がして、灯籠の炎が次第に威力を増し、洞窟の奥深くまで照らし出した。炎の光は、洞窟の中の影を揺らめかせ、洞窟内部を幻想的な風景に変えた。しかし、その美しさは一瞬のものだった。炎は制御不能となり、洞窟内部を焼き尽くした。
+
+薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="51" name="left 03" tags="" position="600,2625" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_apple01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+ガイコツが飾られている灯籠を注意深く調べると、ガイコツの口の中に何かが見つかった。ガイコツを手に取り、ゆっくりと回転させてみると、ガイコツの口が開いた。口の中にあったのは金色に輝くリンゴだった。そのリンゴは、古代のもののように見え、金色の表面が時間の経過を物語っている。
+
+・ドワーフの意見を聞く[[dwarf 05]]
+・エルフの意見を聞く[[elf 03]]</tw-passagedata><tw-passagedata pid="52" name="dwarf 05" tags="" position="300,2750" size="100,100">ドワーフは、金のリンゴを見つめ、その美しさと価値に感嘆の声を上げた。「すごいお宝だ」と彼はつぶやいた。
+そのリンゴは、金色に輝き、その輝きは洞窟の中を照らし出していた。ドワーフの目も金色に輝いていた。
+
+金のリンゴは、神々が人間に与える恵みの象徴とされている。それは、豊穣と繁栄、そして永遠の命を象徴しているとも言われている。
+
+あなたたちは今回の冒険に満足して帰路についた。
+
+TRUE END1[[start 01]] </tw-passagedata><tw-passagedata pid="53" name="elf 03" tags="" position="650,2775" size="100,100">エルフは深く息を吸い込み、「金のリンゴ…。それにまつわる言い伝えを聞いたことがある」と言った。
+「金色の果実は、神々が人間に与える恵みの象徴とされている。それは、豊穣と繁栄、そして永遠の命を象徴しているとも言われている。だが、その輝きは、闇の棲む者たちにも煌々と映り、その心を惹きつける。そして、その中でも、力強きドラゴンさえも、その果実を欲すると伝えられている。」
+
+「金のリンゴ」を手に入れた！あなたはもう一度ダンジョンの入り口に戻り、未知のルートを探してみることにした。[[dungeon 01]]</tw-passagedata><tw-passagedata pid="54" name="talk 02" tags="" position="1625,4050" size="100,100">あなたの言葉は、仲間たちの心に響いた。彼らは、あなたの言葉の真実を理解し、頷いた。そして、また力をつけて挑もうと約束し、あなたたちはその場を後にした。
+
+あなたたちは今回の冒険に満足して帰路についた。
+
+TRUE END2[[start 01]] </tw-passagedata><tw-passagedata pid="55" name="talk 03" tags="" position="1800,4050" size="100,100">あなたは続けた。「しかしドラゴンと戦うことは出来ないとても、財宝を前にしてこのまま帰るわけにはいかないとも思う。酒場に帰ったところで、ただ臆病者と罵られるだけだろう。」
+ドワーフも大きくうなづく。エルフと魔法使いも異論はないようだ。
+しかし、その財宝を手に入れるためには、巨大なドラゴンを何とかしなければならない。
+ドラゴンの気をそらす方法はないだろうかと、あなたは考える。
+
+・音を立てて注意を引く[[dragon 01]]
+・何かを投げて視線をそらす[[dragon 02]]</tw-passagedata><tw-passagedata pid="56" name="dragon 01" tags="" position="1725,4175" size="100,100">あなたたちは相談し、音を立てて注意を引くことに決めた。ドワーフが自分がおとりになると提案したが、あなたは自分の方が逃げ足が速いと反論した。そのため、あなたがおとりにふさわしいと結論づけた。
+
+あなたは大きな音を立てながら逃げることにした。石を蹴ったり、壁を叩いたりして、できるだけ大きな音を立てた。その音は洞窟中に響き渡り、ドラゴンの注意を引いた。
+
+しかし、ドラゴンはその巨体から想像もできないほど速かった。あなたが逃げるのを見て、ドラゴンはすぐに追いついてきた。その速さはあなたが想像していた以上で、あなたは驚愕した。そして炎につつまれた。
+
+魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="57" name="dragon 02" tags="" position="1925,4175" size="100,100">あなたは「何かを投げて注意をそらすのはどうだろう」とみんなに聞いてみた。
+エルフは金のリンゴがドラゴンの好物であると言い、それを使うことを提案した。
+
+・金のリンゴを投げてみる[[item 09]]
+・アイテムを持っていない[[item 08]]</tw-passagedata><tw-passagedata pid="58" name="item 09" tags="" position="1925,4300" size="100,100">あなたは金のリンゴを思い切り投げた。リンゴは空中を軌跡を描きながら飛び、遠くの洞窟の壁に当たった。ドラゴンはその音の方向へと頭を向け、金のリンゴを見つけた。そして猛然とその後を追った。
+
+「今だ！」と言って、みんな手近な財宝をふところにしまった。
+
+・あなたは汚れた紙切れを取る[[item 10]]
+・あなたは大きな宝箱を取る[[item 11]]</tw-passagedata><tw-passagedata pid="59" name="item 10" tags="" position="1775,4475" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_trueend01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+ドラゴンがいない間に、皆は財宝を手に入れた。あなたは近くにあった汚れた紙切れが気になった。一瞬迷ったがそれを手に取った。
+その時、洞窟の奥からドラゴンの唸り声が聞こえてきた。
+
+あなたは時間がないことを悟り、逃げる決断をした。ドラゴンが戻ってくる前に、洞窟を出なければ。あなたは仲間たちに合図を送り、皆で急いで洞窟を後にした。
+
+ドワーフは金貨を、魔法使いは魔法の宝石を手にしていた。エルフは美しい剣を持っていたが、約束通りドワーフに渡した。
+
+あなたが手に入れた紙切れを魔法使いに見せると、彼の顔に驚きの表情が浮かんだ。「よくやった！これは洞窟の地図だ！」と彼は声を上げた。「秘密の通路が記されている。これがあれば次の探索は実りあるものとなるであろう。」その言葉に、皆は歓喜の声を上げた。
+それぞれが手に入れた財宝を胸に抱き、あなたたちは帰路についた。その道中、会話はすでに次の探索の計画に移っていた。その会話は楽しげで、皆の顔には期待と興奮が浮かんでいた。それぞれが次の冒険に向けての期待と希望を胸に秘めていた。
+
+TRUE END4[[start 01]] </tw-passagedata><tw-passagedata pid="60" name="item 11" tags="" position="2075,4425" size="100,100">ドラゴンがいない間に、皆は財宝を手に入れた。あなたは大きな宝箱を取ろうとしたが、その重さに驚いた。どんなに力を込めても、その宝箱はびくともしなかった。その時、洞窟の奥からドラゴンの唸り声が聞こえてきた。
+
+あなたは時間がないことを悟り、宝箱を諦める決断をした。ドラゴンが戻ってくる前に、洞窟を出なければ。あなたは仲間たちに合図を送り、皆で急いで洞窟を後にした。
+
+ドワーフは金貨を、魔法使いは魔法の宝石を手にしていた。エルフは美しい剣を持っていたが、約束通りドワーフに渡した。あなたたちは帰路についた。
+
+TRUE END3[[start 01]] </tw-passagedata><tw-passagedata pid="61" name="left 01" tags="" position="750,1725" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_elf01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+洞窟を進むとエルフ「止まって。」と言った。その声は静かだが、確信に満ちていた。エルフの種族は、洞察力に優れており、彼女の直感を無視することはできない。
+
+エルフが指摘した場所は、よく見ると地面に微妙な凹みがあり、地面を軽く叩くと、その音は空洞の存在を示していた。
+
+・注意深くそのまま一歩進む[[go 02]]
+・そこを避けて進む[[turn 01]]</tw-passagedata><tw-passagedata pid="62" name="go 02" tags="" position="925,1925" size="100,100">「しまった！」と思ったが、もう遅かった。足元の地面が突如としてくずれ、あなたたち罠にかかってしまった。
+
+地面が崩れる音と共に、あなたたちは暗闇の中へと落ちていった。その瞬間、全てがスローモーションのように感じられた。底には槍のような罠が待ち構えていた。
+
+魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="63" name="turn 01" tags="" position="525,1800" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_slime01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+先の洞窟は暗く、視界はほとんどなかった。耳に入るのは自分たちの息遣いと、足音だけだった。しかし、何か別の音も聞こえてきた。それは何かが地面をひきずるような音で、その音は徐々に大きくなっていった。
+
+あなたたちは警戒しながら進んだが、突如としてスライムが現れた。その姿は、半透明のゼリー状の生物で、地面を這うようにゆっくりと動いていたが、今にもあなたたちに襲いかかろうとしていた。
+
+・こちらから攻撃する[[battle 07]]
+・まもりを固める[[guard 01]]</tw-passagedata><tw-passagedata pid="64" name="battle 07" tags="" position="425,1925" size="100,100">すばやく動ける騎士のあなたは、剣を振りかざし、スライムに向かって突進した。と同時に、ドワーフは斧を振り下ろした。エルフは弓矢を放った。
+
+しかし、スライムの体は非常に弾力性があり、どれもスライムには効果がなかった。攻撃の勢いのまま、あなたとドワーフはスライムに取り込まれてしまった。
+強力な酸があなたたちを苦しめた。
+
+魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="65" name="guard 01" tags="" position="575,1925" size="100,100">あなたとドワーフは防御の態勢を取り、身を固めた。その間に、魔法使いは炎の魔法を準備した。その手から放たれた炎は、洞窟の暗闇を照らし出し、スライムに直撃した。
+
+スライムの半透明な体が炎に包まれていた。炎はスライムの体を駆け巡り、その体は瞬く間に蒸発し、飛び散った。
+
+先へ進もう[[go 03]]</tw-passagedata><tw-passagedata pid="66" name="go 03" tags="" position="575,2050" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_chest01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+スライムが消えた場所には、宝箱があった。その宝箱は古びた木製で、金属の装飾が施されていた。錆びた金属部分は長い時間が経過したことを物語っていた。しかし、それはまた、何か貴重なものが内包されている可能性を示していた。
+
+しかし宝箱には鍵がかかっていた。
+
+・ドワーフに叩き壊してもらう[[dwarf 06]]
+・エルフに調べてもらう	[[elf 04]]</tw-passagedata><tw-passagedata pid="67" name="dwarf 06" tags="" position="725,2075" size="100,100">&lt;img src=&quot;https://raw.githubusercontent.com/noiraud/dungeon01/main/img_badend01.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;
+ドワーフが鍵を叩き割ろうとした瞬間、宝箱は突然強い光を放ち、その光は洞窟全体を照らした。そして、巨大な衝撃波が発生し、あなたたちはその力に押し流されて洞窟の壁に打ち付けられた。薄れゆく意識の中、魔法使いは最後の手段「時もどしの魔法」を唱えた。THE END
+[[dungeon 01]]</tw-passagedata><tw-passagedata pid="68" name="elf 04" tags="" position="525,2200" size="100,100">エルフは宝箱を慎重に調べた。彼女の瞳は鋭く、手元は確かであった。「これなら開けられそう」と彼女は言った。その言葉には自信がこもっていた。
+
+エルフはヘアピンを取り出し、それを器用に使って宝箱の錠前をいじり始めた。あなたたちは心配そうに見守った。その間、洞窟の中は静寂に包まれ、耳に入るのは彼女の息遣いと、ヘアピンが錠前と接触する微かな音だけだった。
+
+数分後、かちりと音がして鍵が開いた。その音は洞窟の中で響き渡り、あなたたちの緊張を解き放った。彼女はゆっくりと宝箱の蓋を開けた。その中は空だった。しかし、よく見ると底に小さなものがあった。それは欠けた鍵だった。
+
+アイテム「欠けた鍵」を手に入れた！先へ進もう[[dungeon 05]] </tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
